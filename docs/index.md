@@ -6,7 +6,8 @@ title: Socio-economic Data Guide
 
 Use the links below to open each step:
 
-- **Step 1 — Cleaning & Setup:** [HTML](./socieoconomic-data-analysis-guide-1.html)
-- **Step 2 — EDA:** [HTML](./socioeconomic-data-analysis-guide-2.html)
-- **Step 3 — Stratified Analysis:** [HTML](./socioeconomic-data-analysis-guide-3.html)
-- **Step 4 — Dashboard:** [HTML](./Dashboard.html)
+- **Step 1 — Cleaning & Setup:** [HTML](https://alexarpu.github.io/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/socieoconomic-data-analysis-guide-1.html)
+- **Step 2 — EDA:** [HTML](https://alexarpu.github.io/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/socioeconomic-data-analysis-guide-2.html)
+- **Step 3 — Stratified Analysis:** [HTML](https://alexarpu.github.io/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/socioeconomic-data-analysis-guide-3.html)
+- **Step 4 — Dashboard:** [HTML](https://alexarpu.github.io/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/Dashboard.html)
+
