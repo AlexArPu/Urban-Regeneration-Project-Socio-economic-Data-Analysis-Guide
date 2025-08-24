@@ -12,9 +12,9 @@
 
 <div class="ocp-box">
   
-  <p><strong>Description</strong> This tool provides a step-by-step, R Markdown–based workflow to (1) clean, merge and document household-survey data, (2) explore and visualise it, (3) stratify results by key socio-economic dimensions, and (4) publish an interactive dashboard. It turns raw records into policy-ready indicators and graphics on poverty, access to services, rent burden, safety perception, education, commuting and more. 
+**Description** This tool provides a step-by-step, R Markdown–based workflow to (1) clean, merge and document household-survey data, (2) explore and visualise it, (3) stratify results by key socio-economic dimensions, and (4) publish an interactive dashboard. It turns raw records into policy-ready indicators and graphics on poverty, access to services, rent burden, safety perception, education, commuting and more. 
 
-<p><strong>Participants</strong> Developed by the project lead and municipal technical team (urban planning/economy, statistics/data/monitoring), with optional support from national statistics offices, NGOs and university partners. Intended users include local economic development practitioners, urban planners and policy makers who need a reproducible, code-based evidence pipeline.
+**Participants** Developed by the project lead and municipal technical team (urban planning/economy, statistics/data/monitoring), with optional support from national statistics offices, NGOs and university partners. Intended users include local economic development practitioners, urban planners and policy makers who need a reproducible, code-based evidence pipeline.
 
 </div>
 
