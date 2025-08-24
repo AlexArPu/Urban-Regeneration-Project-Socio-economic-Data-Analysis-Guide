@@ -11,13 +11,9 @@
 # TXX Socio-economic Data Guide
   
 <div style="border:3px dotted #FF9900;border-radius:6px;padding:12px 16px;background:#fff7e6;margin:1rem 0;">
-  <p><strong>Description:</strong> …</p>
-  <p><strong>Participants:</strong> …</p>
+  <p><strong>Description</strong> …</p> his tool provides a step-by-step, R Markdown–based workflow to (1) clean, merge and document household-survey data, (2) explore and visualise it, (3) stratify results by key socio-economic dimensions, and (4) publish an interactive dashboard. It turns raw records into policy-ready indicators and graphics on poverty, access to services, rent burden, safety perception, education, commuting and more.
+  <p><strong>Participants</strong> …</p> Developed by the project lead and municipal technical team (urban planning/economy, statistics/data/monitoring), with optional support from national statistics offices, NGOs and university partners. Intended users include local economic development practitioners, urban planners and policy makers who need a reproducible, code-based evidence pipeline.
 </div>
-
-**Description** This tool provides a step-by-step, R Markdown–based workflow to (1) clean, merge and document household-survey data, (2) explore and visualise it, (3) stratify results by key socio-economic dimensions, and (4) publish an interactive dashboard. It turns raw records into policy-ready indicators and graphics on poverty, access to services, rent burden, safety perception, education, commuting and more. 
-
-**Participants** Developed by the project lead and municipal technical team (urban planning/economy, statistics/data/monitoring), with optional support from national statistics offices, NGOs and university partners. Intended users include local economic development practitioners, urban planners and policy makers who need a reproducible, code-based evidence pipeline.
 
 **Step 1 — [Data Cleaning & Preparation](([https://alexarpu.github.io/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/docs/socieoconomic-data-analysis-guide-1.html](https://github.com/AlexArPu/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/blob/3baee80387142d4a2ae0625eff8796b49f1afcb6/docs/socieoconomic-data-analysis-guide-1.html)))**
 
