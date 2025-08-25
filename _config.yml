@@ -1,1 +1,6 @@
-title: false
+title: "TXX Socio-economic Data Guide"
+description: "Clean → Analyze → Visualize socio-economic survey data."
+theme: minima
+# optional but useful for project sites:
+url: https://alexarpu.github.io
+baseurl: /Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide
