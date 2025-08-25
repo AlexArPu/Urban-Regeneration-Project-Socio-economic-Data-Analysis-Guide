@@ -16,7 +16,7 @@
   <p><strong>Participants</strong> Developed by the project lead and municipal technical team (urban planning/economy, statistics/data/monitoring), with optional support from national statistics offices, NGOs and university partners. Intended users include local economic development practitioners, urban planners and policy makers who need a reproducible, code-based evidence pipeline.</p>
 </div>
 
-**Step 1 — [Data Cleaning & Preparation](https://github.com/AlexArPu/Urban-Regeneration-Project-Socio-economic-Data-Analysis-Guide/blob/main/docs/socioeconomic-data-analysis-guide-1.html)**
+**Step 1 — [Data Cleaning & Preparation](./socioeconomic-data-analysis-guide-1.html)**
 
 In the first step, you load the household survey and core R libraries, then “x-ray” the data with quick structure and summary checks (head/tail/str/summary/dim). You quantify missing values and verify unique IDs, drop fields you won’t analyze, and coerce key variables into analysis-ready formats (e.g., map neighbourhood safety from text to a 1–5 scale and convert Yes/No indicators to 0/1). When a second survey file arrives, you repeat the same cleaning, reconcile column names, standardize category labels, and merge both into a single canonical dataset (complete_survey). You finish by grouping related variables and exporting the cleaned file so Steps 2–4 can build consistent analysis, visuals, and dashboards on one “canonical source.”
 
