@@ -1,3 +1,8 @@
+<div class="logo-single">
+  <img src="./assets/img/ocp-unhabitat-logos.png"
+       alt="UN-Habitat and Our City Plans logos">
+</div>
+
 <style>
 .ocp-step{
   display:block;
