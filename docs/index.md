@@ -29,11 +29,11 @@
   z-index: 1000;
 }
 .logo-single img{
-  height: 48px;   /* adjust size here */
+  height: 150px;   /* adjust size here */
   width: auto;
 }
 @media (max-width: 640px){
-  .logo-single img{ height: 72px; }
+  .logo-single img{ height: 36px; }
 }
 </style>
 
