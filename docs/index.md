@@ -35,15 +35,21 @@ In the first step, you load the household survey and core R libraries, then “x
 
 The original dataset (```household_survey_1```) can be found [here](https://docs.google.com/spreadsheets/d/1g9wLeMfwMVtUlpOOwIr0WYIpGN_ZXL4u/edit?usp=drive_link&ouid=105664068897260112805&rtpof=true&sd=true), and the additional dataset that will be used in the merging (```household_survey_2```) can be found [here](https://docs.google.com/spreadsheets/d/1UtXni8_V5ANcd4fOSCxJaMXZZvvrXqnC/edit?usp=drive_link&ouid=105664068897260112805&rtpof=true&sd=true). The [Data Dictionary](https://docs.google.com/spreadsheets/d/1BGSSNHbM8WzLIjpf4B2ypOuXvmSyZsJC/edit?usp=drive_link&ouid=105664068897260112805&rtpof=true&sd=true) contains information about the variables present in both files.
 
-**Step 2 — [Exploratory Data Analysis](./socioeconomic-data-analysis-guide-2.html)**
+<a class="ocp-step" href="./socioeconomic-data-analysis-guide-2.html">
+  Step 2 — Exploratory Data Analysis
+</a>
 
 During the EDA, you load the [cleaned dataset](https://docs.google.com/spreadsheets/d/1mQD6g_noSQiHN-os1dnByc0CcJYl2JRm/edit?usp=drive_link&ouid=105664068897260112805&rtpof=true&sd=true) that was generated in the previous step plus the core libraries, profile the sample by district and nationality, and split variables into numeric vs. categorical to choose the right summaries and charts. For numeric fields you compute central tendency, dispersion and range measures, then inspect distributions with boxplots, histograms, and density plots; for categoricals you build frequency and relative-frequency tables, explicitly count default “Select” responses, and visualize with vertical/horizontal bars, stacked bars, and simple pies. You then examine relationships using Pearson (continuous–continuous), Spearman (ordinal), and point-biserial (continuous–binary) correlations, and illustrate Simpson’s paradox with an example to motivate stratification in the next step. Finally, you check subgroup sizes and run the appropriate hypothesis test to see whether apparent differences are statistically meaningful.
 
-**Step 3 — [Data Stratification & Comparative Analysis](./socioeconomic-data-analysis-guide-3.html)** 
+<a class="ocp-step" href="./socioeconomic-data-analysis-guide-3.html">
+  Step 3 — Stratified Analysis
+</a>
 
 Now you segment the cleaned survey into meaningful population groups (by nationality, income, and marital status) to move beyond overall averages and reveal disparities. You then profile vulnerability (relative poverty and lack of basic services) by district, compare rent burden for all households and for low-income households, and visualize income composition and inequality (Gini) across places. Next, you examine education, age, and marital status patterns across groups, and contrast reported security incidents with perceived safety—both by district and demographics—to spot divergences. Finally, you approximate work location (inside/outside the study area) from commute mode and time, and compare employment accessibility across socio-economic groups and economic activities, presenting results with clear tables and intuitive charts.
 
-**Step 4 — [Dashboard Development](./Dashboard.html)**
+<a class="ocp-step" href="./Dashboard.html">
+  Step 4 — Dashboard
+</a>
 
 Lastly, you package the analysis into a Shiny dashboard so non-technical users can explore it themselves. You load the cleaned dataset, add a simple rule-of-thumb to tag whether respondents work inside or outside the study area from commute mode and time, and set up the app skeleton: header, a sidebar filter (by Nationality or District), and three tabs—Summary, Charts, and Data Table. Each tab is wired to dynamic filtering so KPIs, visuals, and tables update instantly. The Summary tab shows headline indicators (neighbourhood liking, safety, income, age, education, rent burden, electricity access, marital status in-country, and share working inside the area); the Charts tab offers interactive plots for age, income, marital status, transport mode, education, utility access, and economic sectors; and the Data Table tab provides a downloadable, grouped summary for quick comparisons. Finally, you deploy to shinyapps.io with rsconnect so the dashboard is shareable online.
 
