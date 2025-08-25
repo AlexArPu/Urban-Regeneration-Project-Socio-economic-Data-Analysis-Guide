@@ -2,14 +2,27 @@
 .ocp-step{
   display:block;
   background:#FF9900;
-  color:#fff !important;     /* keep text white even if theme styles links */
+  color:#fff !important;    
   padding:12px 16px;
   border-radius:8px;
   font-weight:700;
   margin:18px 0 10px;
-  text-decoration:none;      /* no underline */
+  text-decoration:none;     
 }
 .ocp-step:hover, .ocp-step:focus{ filter:brightness(0.95); }
+.logo-single{
+  position: fixed;    
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+}
+.logo-single img{
+  height: 48px;   /* adjust size here */
+  width: auto;
+}
+@media (max-width: 640px){
+  .logo-single img{ height: 36px; }
+}
 </style>
 
 # TXX Socio-economic Data Guide
