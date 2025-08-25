@@ -1,1 +1,5 @@
-
+---
+---
+@import "{{ site.theme }}";
+.page-header { display: none; }   /* common class for Pages themes */
+.main-content { padding-top: 0; }
