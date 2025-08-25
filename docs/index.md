@@ -17,8 +17,8 @@
 .ocp-step:hover, .ocp-step:focus{ filter:brightness(0.95); }
 .logo-single{
   position: fixed;    
-  top: 12px;
-  right: 12px;
+  top: 20px;
+  right: 20px;
   z-index: 1000;
 }
 /* pinned logo (top-right) */
