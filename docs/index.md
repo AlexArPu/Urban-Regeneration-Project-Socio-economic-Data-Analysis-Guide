@@ -16,6 +16,17 @@
   right: 12px;
   z-index: 1000;
 }
+/* pinned logo (top-right) */
+.logo-single{
+  position: fixed;    /* use 'absolute' if you don't want it pinned on scroll */
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+  background: rgba(255,255,255,.9); /* optional: white chip for contrast */
+  border-radius: 6px;               /* optional */
+  padding: 6px;                     /* optional */
+  box-shadow: 0 1px 4px rgba(0,0,0,.08); /* optional */
+}
 .logo-single img{
   height: 48px;   /* adjust size here */
   width: auto;
