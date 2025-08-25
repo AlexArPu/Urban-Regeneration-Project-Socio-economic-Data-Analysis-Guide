@@ -1,13 +1,4 @@
-
 <style>
-.site-header, .site-title, .site-nav { display:none !important; }
-.page-content { padding-top: 0 !important; margin-top: 0 !important; }
-.ocp-box{
-  border:3px dotted #FF9900;
-  border-radius:6px;
-  padding:12px 16px;          
-  margin:1rem 0;
-}
 .ocp-step{
   display:block;
   background:#FF9900;
